@@ -5,6 +5,10 @@ http://wiki.c2b2.columbia.edu/workbench/index.php/Download_and_Installation#geWo
 
 make an alias of the “launch_geworkbench_macosx_16G.command” file from the unzipped folder to the desktop for easy deployment.
 
+configure the geWorkbench to have ARACNE configured for analysis. 
+Tools-->Component Configuration-->check the box on ARACNe Analysis
+
+
 # Julia language installation,
 https://julialang.org/downloads/
 once installed, evoke Julia, 
