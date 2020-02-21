@@ -6,3 +6,5 @@
 /session2/*
 /network_inference_tutorials/*
 .DS_Store
+/notebook/.ipynb_checkpoints/*
+/.DS_Store
