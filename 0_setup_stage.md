@@ -11,17 +11,26 @@ once installed, evoke Julia,
 install a few programs for the tutorial.
 
 using Pkg
-  \nPkg.add(“GraphPlot”)
-  \nPkg.add(“LightGraphs”)
-\n Pkg.add(“NetworkInference”)
+
+Pkg.add(“GraphPlot”)
+
+Pkg.add(“LightGraphs”)
+
+Pkg.add(“NetworkInference”)
+
+
 Pkg.add(“Printf”)  
 Pkg.add(“CSV”)
 
-# After installation, test to make sure there is no error messages.
-using GraphPlot \n 
-\n using LightGraphs
-using NetworkInference\n 
-using Printf\n 
+### After installation, test to make sure there is no error messages.
+using GraphPlot 
+
+using LightGraphs
+
+using NetworkInference
+
+using Printf
+
 using CSV
 
 # If everything is fine. Then exit using
