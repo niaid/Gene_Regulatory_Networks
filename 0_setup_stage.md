@@ -18,11 +18,10 @@ Pkg.add(“LightGraphs”)
 
 Pkg.add(“NetworkInference”)
 
-
 Pkg.add(“Printf”)  
 Pkg.add(“CSV”)
 
-### After installation, test to make sure there is no error messages.
+#### After installation, test to make sure there is no error messages.
 using GraphPlot 
 
 using LightGraphs
@@ -33,7 +32,7 @@ using Printf
 
 using CSV
 
-# If everything is fine. Then exit using
+#### If everything is fine. Then exit using
 quit()
 
 In Cytoscape, install the iRegulon app.
