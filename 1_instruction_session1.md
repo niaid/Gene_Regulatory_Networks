@@ -10,16 +10,16 @@ I, use ARACNE
 
 
 II, Run Julia and NetworkInference
-1.	### Click Julia icon to start up
-2.	### Start up Jupyter notebook for Julia
+1.	Click Julia icon to start up
+2.	Start up Jupyter notebook for Julia
 using IJulia 
 notebook()
-### a terminal will pop out and start a URL with Jupyter notebook. 
-3.	### find the 2_infer_network_ipynb from notebook folder and click it to open a worksheet. 
-4.	### Run the steps in the worksheet. It will export the network and genes file to a csv file called 2_graphJulia.csv and genes list to 2_genesJulia.csv.
-5.	### Run 2_JuliaGraphToCSV.R to give gene name to the network file and save it as 2_JuliaNet.csv
-6.	### Import 2_JuliaNet.csv to the Cytoscape, by 
+a terminal will pop out and start a URL with Jupyter notebook. 
+3.	find the 2_infer_network_ipynb from notebook folder and click it to open a worksheet. 
+4.	Run the steps in the worksheet. It will export the network and genes file to a csv file called 2_graphJulia.csv and genes list to 2_genesJulia.csv.
+5.	Run 2_JuliaGraphToCSV.R to give gene name to the network file and save it as 2_JuliaNet.csv
+6.	Import 2_JuliaNet.csv to the Cytoscape, by 
 File Import  network from file 2_JuliaNet.csv
 Use ““” and “,” as separate, unselect all and reselect “from” and “to” from the file. 
-7.	### Change layout and use Mcode to explore the different levels of threshold on the connectivity.
+7.	Change layout and use Mcode to explore the different levels of threshold on the connectivity.
 
