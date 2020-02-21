@@ -1,7 +1,5 @@
 #install.packages("infotheo")
 library(infotheo)
-X=c(4,2,4,3,8,1,9)
-Y=c(3,1,5,4,7,0,8)
 
 X=c(4,3,4,3,4,3,4)
 Y=c(1,4,6,2,7,9,8)
