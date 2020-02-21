@@ -11,17 +11,17 @@ once installed, evoke Julia,
 install a few programs for the tutorial.
 
 using Pkg
-Pkg.add(“GraphPlot”)
-Pkg.add(“LightGraphs”)
-Pkg.add(“NetworkInference”)
-Pkg.add(“Printf”)
+\n Pkg.add(“GraphPlot”)
+\n Pkg.add(“LightGraphs”)
+\n Pkg.add(“NetworkInference”)
+Pkg.add(“Printf”)  
 Pkg.add(“CSV”)
 
 # After installation, test to make sure there is no error messages.
-using GraphPlot
-using LightGraphs
-using NetworkInference
-using Printf
+using GraphPlot \n 
+\n using LightGraphs
+using NetworkInference\n 
+using Printf\n 
 using CSV
 
 # If everything is fine. Then exit using
@@ -38,6 +38,6 @@ Mainly just follow the “Installation” section. You can ignore the “Species
 I have downloaded them into the folder on the server.
 https://rawcdn.githack.com/aertslab/SCENIC/701cc7cc4ac762b91479b3bd2eaf5ad5661dd8c2/inst/doc/SCENIC_Setup.html
 
-I have transferred some data files to the server. /home/bcbb_teaching_files/
+I have transferred some data files to the server.\n  /home/bcbb_teaching_files/
 
 
