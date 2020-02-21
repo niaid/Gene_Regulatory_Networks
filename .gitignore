@@ -8,3 +8,5 @@
 .DS_Store
 /notebook/.ipynb_checkpoints/*
 /.DS_Store
+.*
+!/.gitignore
