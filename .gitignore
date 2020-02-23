@@ -1,7 +1,8 @@
 ~$*
 /session_2/*
+/session_2/cisTarget_databases/*
 .DS_Store
-/notebook/.ipynb_checkpoints/*
-/.DS_Store
+/session_1/notebook/.ipynb_checkpoints/*
 .*
 !/.gitignore
+/session_2/*.pptx
