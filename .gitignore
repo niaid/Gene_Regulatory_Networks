@@ -1,6 +1,7 @@
 ~$*
 # /session_2/*
 /session_2/cisTarget_databases/*
+/session_2/development/*
 .DS_Store
 /session_1/notebook/.ipynb_checkpoints/*
 .*
