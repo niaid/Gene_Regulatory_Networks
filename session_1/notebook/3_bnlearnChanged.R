@@ -26,8 +26,9 @@ dag$nodes
 # 
 
 getwd()
+setwd("../session_1/notebook/")
 exprMatRaw=read.csv("../data/3_BNLEARN/exprMat_filtered.csv",row.names = 1,header = T)
-exprMatRaw=log(exprMat1+1)
+exprMatRaw=log(exprMatRaw+1)
 nrow(exprMatRaw)
 ncol(exprMatRaw)
 exprMat1=exprMatRaw[rowMeans(exprMatRaw)>1.2,]

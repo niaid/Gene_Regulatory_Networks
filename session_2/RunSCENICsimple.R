@@ -80,7 +80,7 @@ runSCENIC_2_createRegulons(scenicOptions, coexMethod=c("top5perTarget")) # Toy r
 x=readRDS("int/2.1_tfModules_forMotifEnrichmet.Rds")
 x=readRDS("int/2.5_regulonTargetsInfo.Rds")
 str(x)
-fix(x)
+head(x)
 colnames(x)
 #[1] "TF"            "gene"          "nMotifs"       "bestMotif"     "NES"           "highConfAnnot" "Genie3Weight" 
 unique(x[,1])
@@ -89,7 +89,7 @@ unique(x[,1])
 y=x[order(x$Genie3Weight,decreasing = T),]
 head(y)
 ###############################################################
-runSCENIC_3_scoreCells(scenicOptions, exprMat_log)
+runSCENIC_3_scoreCells(scenicOptions, exprMat_filtered_log)
 runSCENIC_4_aucell_binarize(scenicOptions)
 ### Exploring output 
 # Check files in folder 'output'
@@ -105,3 +105,4 @@ viewMotifs(tableSubset)
 regulonTargetsInfo <- loadInt(scenicOptions, "regulonTargetsInfo")
 tableSubset <- regulonTargetsInfo[TF=="Stat6" & highConfAnnot==TRUE]
 viewMotifs(tableSubset) 
+
