@@ -16,6 +16,7 @@ exprMat[1:5,1:5]
 hist(log10(rowMeans(exprMat)+1))
 
 cellInfo <- get_cellAnnotation(loom)
+head(cellInfo)
 close_loom(loom)
 
 #############################################################
@@ -74,6 +75,7 @@ runSCENIC_1_coexNetwork2modules(scenicOptions)
 ## this step takes 2 minutes, it runs cisTarget to find out the top confident upstream TFBSs. 
 scenicOptions@settings$dbs <- scenicOptions@settings$dbs["10kb"] # Toy run settings
 runSCENIC_2_createRegulons(scenicOptions, coexMethod=c("top5perTarget")) # Toy run settings
+
 ?runSCENIC_2_createRegulons()
 # Step 2: RcisTarget (prune co-expression modules using TF-motif enrichment analysis)
 #' minGenes	Minimum size of co-expression gene set (default: 20 genes)

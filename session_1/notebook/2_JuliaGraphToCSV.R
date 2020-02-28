@@ -1,5 +1,5 @@
 getwd()
-setwd("~/GRN/Gene_Regulatory_Networks/notebook/")
+setwd("~/GRN/Gene_Regulatory_Networks/session_1/notebook/")
 genes=read.csv("../data/2_JULIA/genesJulia.csv",header = T,row.names = 1)
 str(genes)
 head(genes)
