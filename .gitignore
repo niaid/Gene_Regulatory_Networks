@@ -1,11 +1,11 @@
 ~$*
-# /session_2/*
-/session_2/cisTarget_databases/*
-/session_2/development/*
-/development
+# /ACEversion/session_2/*
+/ACEversion/session_2/cisTarget_databases/*
+/ACEversion/session_2/development/*
+/ACEversion/development
 .DS_Store
-/session_1/notebook/.ipynb_checkpoints/*
+/ACEversion/session_1/notebook/.ipynb_checkpoints/*
 .*
 !/.gitignore
-/session_2/*.pptx
+/ACEversion/session_2/*.pptx
 
