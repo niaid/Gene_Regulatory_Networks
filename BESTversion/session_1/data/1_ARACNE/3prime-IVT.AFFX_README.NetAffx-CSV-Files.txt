@@ -1,0 +1,111 @@
+README for 3'-IVT Expression Array CSV annotation files.
+
+Copyright 2004-2008, Affymetrix Inc.
+All Rights Reserved
+
+The contents of the CSV file are covered by the terms of use 
+or license located at http://www.affymetrix.com/browse/terms.jsp 
+
+This README provides a guide to the contents of the CSV
+(comma-separated value) files containing annotations for all
+Affymetrix 3'-IVT gene expression array probe sets.
+
+The CSV files contain both design-time information as well as NetAffx
+assignments between probe sets and public mRNA sequences (cDNAs) and
+other annotations associated with these sequences. These files are
+suitable for use with MS Excel and as input to the Affymetrix EC and
+APT software packages, or other software that is compatible with these
+packages.
+
+
+Contents
+--------
+   I. Informative header
+   II. File format conventions
+   III. Online resources
+   IV. OMIM
+
+I. Informative header
+
+   The CSV file contains an informative header consisting of a set of
+   key=value attributes describing the data within the file. This
+   includes details about the array design and the NetAffx release on
+   which the data in the file are based. The keys do not contain
+   spaces, but the values may.
+
+   For compatibility with Expression Console (EC) and Affymetrix Power
+   Tools (APT) software, each attribute-containing line of the
+   informative header starts with '#%' while descriptive comment lines
+   of the header start with '##'. 
+
+   The first non-commented row of the CSV file is a column header,
+   containing the primary column titles.
+
+   Description of header keys:
+
+   General information:
+      create_date     - date the CSV file was created
+      chip_type       - offical designation of the chip (a.k.a. array_type)
+
+   Genome information: 
+      genome-species                - genus and species of organism
+      genome-version                - version used during array annotation
+      genome-version-ucsc           - UCSC version tag for genome assembly
+      genome-version-ncbi           - NCBI version tag for genome assembly
+      genome-version-create_date    - genome assembly release date
+
+      Note: genome information is only listed for arrays that were annotated 
+            using a complete or near-complete genome assembly.
+
+   NetAffx information:
+      netaffx-annotation-date                    - NetAffx release date
+      netaffx-annotation-netaffx-build           - NetAffx release number
+      netaffx-annotation-tabular-format-version  - version of the file format
+      netaffx-annotation-docgen-method           - specific class of the "docgen" software used to generate the annotation file
+      netaffx-annotation-docgen-version          - version of the "docgen" software used to generate the annotation file
+
+   Source database information:
+      ensembl-date                               - date of Ensembl version release
+      ensembl-version                            - Ensembl version used for array annotation
+      entrezgene-date                            - date of Entrez Gene release  used for array  annotation
+      genbank-date                               - date of GenBank version release
+      genbank-version                            - GenBank version used for array annotation
+      ipi-date                                   - date of Internation Protein Index release used for array annotation 
+      mirbase-date                               - date of microRNA database version release
+      mirbase-version                            - MicroRNA database release used for array annotation
+      refseq-date                                - date of Refseq version release
+      refseq-version                             - RefSEq version release used for array annotation
+      omim-date                                  - Date of OMIM content used for array annotation
+#%netaffx-annotation-docgen-method=com.affymetrix.database.docgen.DocGenDriver
+#%netaffx-annotation-docgen-version=cluster_friendly_submission
+
+
+II. File format conventions
+
+   The CSV files follow the NetAffx tabular data file conventions
+   described at:
+   
+   http://www.affymetrix.com/support/technical/manual/taf_manual.affx
+   
+   
+III. Online resources
+
+  * NetAffx release notes listing data sources used for array annotation:
+      http://www.affymetrix.com/support/help/releasedocs/index.affx
+
+  * NetAffx interactive array analysis site: 
+      http://www.affymetrix.com/analysis/index.affx
+
+  * NetAffx support materials:
+      http://www.affymetrix.com/support/technical/byproduct.affx?product=netaffx
+
+  * Array support materials:
+      http://www.affymetrix.com/support/technical/byproduct.affx?cat=arrays
+
+
+IV. OMIM 
+   This database/product contains information obtained from the
+   Online Mendelian Inheritance in Man (OMIM (TM)) database, which has
+   been obtained through a license from the Johns Hopkins University.
+   This database/product does not represent the entire, unmodified OMIM(TM)
+   database, which is available in its entirety at www.ncbi.nlm.nih.gov/omim/.

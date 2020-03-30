@@ -6,7 +6,7 @@
 
 3.	Now you should see the Commends -> Analysis -> ARACNE analysis.
 
-4.	Open data file of Bcell-100.exp, it will ask an annotation file, choose the HG…csv file. This way the gene symbols will be added to the probe list, with a “()” separating it from other information. 
+4.	Open data file of Bcell-100.exp, it will ask an annotation file, choose the HG_U95Av2.na36.annot.csv (unziped) file. This way the gene symbols will be added to the probe list, with a “()” separating it from other information. 
 
 5.	Now select a few important genes that you want to find out their targets. Myc, Ccnd1, E2F1 etc. 
 
