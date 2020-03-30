@@ -19,4 +19,4 @@ For practical materials:
   **git clone https://github.com/niaid/Gene_Regulatory_Networks**
 
 Methods covered in this webinar:
-<img src="./myimage.png">
+<img src="./myimage1.png">
