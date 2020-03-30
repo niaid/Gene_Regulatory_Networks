@@ -9,3 +9,12 @@
 !/.gitignore
 /ACEversion/session_2/*.pptx
 
+# /BESTversion/session_2/*
+/BESTversion/session_2/cisTarget_databases/*
+/BESTversion/session_2/development/*
+/BESTversion/development
+.DS_Store
+/BESTversion/session_1/notebook/.ipynb_checkpoints/*
+.*
+!/.gitignore
+/BESTversion/session_2/*.pptx
