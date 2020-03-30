@@ -1,3 +1,5 @@
+# Please go to the BESTversion for the NIH training.
+
 # **Gene_Regulatory_Networks**
 
 The BESTversion of This repository is purposed for the NIH training, Mar 30, 2020.

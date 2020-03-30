@@ -1,7 +1,7 @@
 # Programs to install
-**geWorkbench** 
+**geWorkbench for runing ARACNe** 
 
-Download and install. (it needs email, name, affiliation for a free download)
+Download geWorkbench and install. (it needs email, name, affiliation for a free download)
 
 http://wiki.c2b2.columbia.edu/workbench/index.php/Download_and_Installation#geWorkbench_2.6.0.3_.28released_December_21.2C_2015.29
 
