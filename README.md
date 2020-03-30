@@ -1,6 +1,6 @@
 # **Gene_Regulatory_Networks**
 
-The BESTversion of This repository has been repurposed for the NIAID training, Mar30, 2020.
+The BESTversion of This repository is purposed for the NIH training, Mar 30, 2020.
 
 Original ACEversion this was for the Uganda training 2020, for Africa Center of Execellence.
 There are two sessions in the ACEversion. Session 1 will be on biological backgrounds, information theory-based methods and Bayesian Network. session 2 will be on iRegulon and SCENIC.
