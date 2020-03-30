@@ -16,3 +16,5 @@ library(eulerr)
 ### please realize that areas in this drawing are not proportional to the numbers. 
 fit <- euler(c(A = entropy(X), B = entropy(Y), "A&B" = mutinformation(X,Y)))
 plot(fit)
+R.version
+file.path(R.home("bin"), "R")

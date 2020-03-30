@@ -1,5 +1,11 @@
+###############
+#### This is a piece of code that put the name of genes inside the network file.  
+###############
+
+
 getwd()
-setwd("~/GRN/Gene_Regulatory_Networks/session_1/notebook/")
+# replace the "~/projects/GRN/" to where you cloned the git repo)
+setwd("~/projects/GRN/Gene_Regulatory_Networks/BESTversion/session_1/notebook/")
 genes=read.csv("../data/2_JULIA/genesJulia.csv",header = T,row.names = 1)
 str(genes)
 head(genes)
