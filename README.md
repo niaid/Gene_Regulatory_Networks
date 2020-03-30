@@ -17,6 +17,7 @@ https://tinyurl.com/GRN-best
 
 For practical materials:
   **git clone https://github.com/niaid/Gene_Regulatory_Networks**
-
+I would also suggest some general tips for learning bioinformatics,
+  https://github.com/zhuy16/learning_notes
 Methods covered in this webinar:
 <img src="./myimage1.png">
