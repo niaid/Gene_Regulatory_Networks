@@ -1,3 +1,5 @@
+
+# note that NIH VPN connect may cause downloading not work, and images not shown in the github. Please disconnect your VPN before downloading. 
 # Please go to the BESTversion for the NIH training.
 
 ### **Gene_Regulatory_Networks**
