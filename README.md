@@ -7,7 +7,7 @@ Please disconnect your VPN before downloading.
 
 The BESTversion of This repository is purposed for the NIH training, Mar 30, 2020.
 
-The [youtube video presentation](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be) is ready for you to review.
+The [**youtube video presentation**](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be) is ready for you to review.
 
 (Original ACEversion this was for the Uganda training 2020, for Africa Center of Execellence.
 There are two sessions in the ACEversion. Session 1 will be on biological backgrounds, information theory-based methods and Bayesian Network. session 2 will be on iRegulon and SCENIC.)
