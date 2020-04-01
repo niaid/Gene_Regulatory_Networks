@@ -1,13 +1,12 @@
+The [**youtube video presentation**](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be) is ready for you to review.
+
+[![**youtube video record**](https://img.youtube.com/vi/eMvUteU3WWk/0.jpg)](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
 
 # Please go to the BESTversion for the NIH training.
 
 ### **Gene_Regulatory_Networks**
 
 The BESTversion of This repository is purposed for the NIH training, Mar 30, 2020.
-
-The [**youtube video presentation**](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be) is ready for you to review.
-
-[![**youtube video record**](https://img.youtube.com/vi/eMvUteU3WWk/0.jpg)](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
 
 (The original ACEversion was for the Uganda training 2020, for Africa Center of Execellence.
 There are two sessions in the ACEversion. Session 1 will be on biological backgrounds, information theory-based methods and Bayesian Network. session 2 will be on iRegulon and SCENIC.)
