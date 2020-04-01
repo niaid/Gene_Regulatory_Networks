@@ -5,6 +5,11 @@
 
 The BESTversion of This repository is purposed for the NIH training, Mar 30, 2020.
 
+[![**youtube video presentation**](https://img.youtube.com/vi/eMvUteU3WWk/0.jpg)](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
+
+(https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+
 The [**youtube video presentation**](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be) is ready for you to review.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eMvUteU3WWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
