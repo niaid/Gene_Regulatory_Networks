@@ -1,9 +1,6 @@
 The [**youtube video presentation**](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be) is ready for you to review.
 
-[![**youtube video record**](https://img.youtube.com/vi/eMvUteU3WWk/0.jpg)](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
-
 [![**youtube video record**](./myimage1.png)](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
-
 
 # Please go to the BESTversion for the NIH training.
 
