@@ -8,9 +8,6 @@ The [**youtube video presentation**](https://www.youtube.com/watch?v=eMvUteU3WWk
 
 The BESTversion of This repository is purposed for the NIH training, Mar 30, 2020.
 
-# Methods covered in this webinar:
-<img src="./myimage1.png">
-
 For practical materials:
   **git clone https://github.com/niaid/Gene_Regulatory_Networks**
 
