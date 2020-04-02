@@ -8,6 +8,15 @@ The [**youtube video presentation**](https://www.youtube.com/watch?v=eMvUteU3WWk
 
 The BESTversion of This repository is purposed for the NIH training, Mar 30, 2020.
 
+# Methods covered in this webinar:
+<img src="./myimage1.png">
+
+For practical materials:
+  **git clone https://github.com/niaid/Gene_Regulatory_Networks**
+
+I would also suggest some general tips for learning bioinformatics,
+  https://github.com/zhuy16/learning_notes
+
 (The original ACEversion was for the Uganda training 2020, for Africa Center of Execellence.
 There are two sessions in the ACEversion. Session 1 will be on biological backgrounds, information theory-based methods and Bayesian Network. session 2 will be on iRegulon and SCENIC.)
 
@@ -20,11 +29,3 @@ Instructor: zhuy16@nih.gov
 Or leave your question at this Googledoc:
 https://tinyurl.com/GRN-best 
 
-For practical materials:
-  **git clone https://github.com/niaid/Gene_Regulatory_Networks**
-
-I would also suggest some general tips for learning bioinformatics,
-  https://github.com/zhuy16/learning_notes
-
-# Methods covered in this webinar:
-<img src="./myimage1.png">
